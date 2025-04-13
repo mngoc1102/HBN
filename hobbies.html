@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Hobbies - Hoang Bao Ngoc</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            max-width: 1200px; /* Adjusted to match index.html */
+            margin: 0 auto; /* Center the content horizontally */
+        }
+
+        .container {
+            text-align: center;
+            max-width: 1000px; /* Adjusted for larger content area */
+        }
+
+        ol {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+        }
+
+        ol li {
+            flex: 1;
+            text-align: center;
+        }
+
+        ol li img {
+            width: 150px; /* Increased image size */
+            height: 150px; /* Increased image size */
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        header, footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Hobbies</h1>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Things I Enjoy</h2>
+        <ul>
+            <li>Play games</li>
+            <li>Billard</li>
+            <li>Go travel</li>
+        </ul>
+
+        <h3>Top 3 Travel Destinations</h3>
+        <ol>
+            <li>
+                <img src="img/568976h1-1694451569790557720062.webp" alt="Da Lat">
+                <p>Da Lat</p>
+            </li>
+            <li>
+                <img src="img/Hoang-Su-Phi-Ha-Giang-1196-164-6724-9210-1657019230.webp" alt="Ha Giang">
+                <p>Ha Giang</p>
+            </li>
+            <li>
+                <img src="img/phu-quoc-1714172997152-1743582697894.webp" alt="Phu Quoc">
+                <p>Phu Quoc</p>
+            </li>
+        </ol>
+
+        <h3>My Favorite Song 🎵</h3>
+        <audio controls>
+            <source src="audio/NguaO-DangrangtoTeuYungBoyDONAL-16262158.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Hoang Bao Ngoc</p>
+    </footer>
+</body>
+</html>
